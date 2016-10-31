@@ -1,0 +1,47 @@
+.container .join > h1 {
+    margin-top: 0px;
+}
+
+.join {
+    text-align: center;
+}
+
+.join > button {
+    color: white;
+    background-color: blue;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.container-fluid {
+    background-color: dodgerblue;
+    color: white;
+}
+
+li a {
+    list-style-type: none;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background-color: blue !important;
+    color: white;
+    background-image: none;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: blue;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    background-color: blue;
+}
+
+.navbar-right {
+    float: right;
+}
