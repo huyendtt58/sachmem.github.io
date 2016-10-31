@@ -18,10 +18,10 @@ var CarouselComponent = (function () {
         this.index = 0;
         this.slides = [];
         this.imgUrl = [
-            "./app/assets/carousel-image/feel.jpg",
-            "./app/assets/carousel-image/food.jpg",
-            "./app/assets/carousel-image/feel.jpg",
-            "./app/assets/carousel-image/food.jpg"
+            "./app/assets/carousel-image/class.jpg",
+            "./app/assets/carousel-image/book.jpg",
+            "./app/assets/carousel-image/fun.png",
+            "./app/assets/carousel-image/check.png"
         ];
         for (var i = 0; i < 4; i++) {
             this.addSlide();

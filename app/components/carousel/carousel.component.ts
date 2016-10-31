@@ -13,10 +13,10 @@ export class CarouselComponent {
 	index: number = 0;
 	slides: Array<any> = [];
 	imgUrl: Array<any> = [
-		`./app/assets/carousel-image/feel.jpg`,
-		`./app/assets/carousel-image/food.jpg`,
-		`./app/assets/carousel-image/feel.jpg`,
-		`./app/assets/carousel-image/food.jpg`
+		`./app/assets/carousel-image/class.jpg`,
+		`./app/assets/carousel-image/book.jpg`,
+		`./app/assets/carousel-image/fun.png`,
+		`./app/assets/carousel-image/check.png`
 	];
 
   constructor(private router: Router) {

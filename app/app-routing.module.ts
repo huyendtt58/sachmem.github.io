@@ -10,6 +10,7 @@ import { BookDetailComponent }    from './components/book/book-detail.component'
 import { TestComponent }    from './components/tests/test.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: CarouselComponent},
   { path: 'books', component: BookComponent },
   { path: 'books/:id', component: BookDetailComponent },

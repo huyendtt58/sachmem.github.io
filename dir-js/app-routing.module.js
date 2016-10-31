@@ -16,6 +16,7 @@ var book_component_1 = require('./components/book/book.component');
 var book_detail_component_1 = require('./components/book/book-detail.component');
 var test_component_1 = require('./components/tests/test.component');
 var routes = [
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: carousel_component_1.CarouselComponent },
     { path: 'books', component: book_component_1.BookComponent },
     { path: 'books/:id', component: book_detail_component_1.BookDetailComponent },
