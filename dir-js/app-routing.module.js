@@ -11,13 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var test_routing_module_1 = require('./components/tests/test-routing.module');
-var carousel_component_1 = require('./components/carousel/carousel.component');
+var home_component_1 = require('./components/home/home.component');
 var book_component_1 = require('./components/book/book.component');
 var book_detail_component_1 = require('./components/book/book-detail.component');
 var test_component_1 = require('./components/tests/test.component');
 var routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: 'home', component: carousel_component_1.CarouselComponent },
+    { path: 'home', component: home_component_1.HomeComponent },
     { path: 'books', component: book_component_1.BookComponent },
     { path: 'books/:id', component: book_detail_component_1.BookDetailComponent },
     { path: 'tests', component: test_component_1.TestComponent }

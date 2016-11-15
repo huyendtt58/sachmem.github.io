@@ -25,7 +25,8 @@ var TestComponent = (function () {
 exports.TestComponent = TestComponent;
 var TESTS = [
     { "name": "chooseAns", "content": "Choose correct answer" },
-    { "name": "conplete", "content": "Complete sentences" },
+    { "name": "readAndWrite", "content": "Read and complete sentences" },
+    { "name": "complete", "content": "Complete sentences" },
     { "name": "tOrF", "content": "True or False" },
     { "name": "listen", "content": "Listen and choose answer" }
 ];

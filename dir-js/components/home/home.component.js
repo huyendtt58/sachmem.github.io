@@ -10,8 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var CarouselComponent = (function () {
-    function CarouselComponent(router) {
+var HomeComponent = (function () {
+    function HomeComponent(router) {
         this.router = router;
         this.titlePage = "Sách mềm - Phần mềm hỗ trợ sách giáo khoa";
         this.myInterval = 2000;
@@ -27,7 +27,7 @@ var CarouselComponent = (function () {
             this.addSlide();
         }
     }
-    CarouselComponent.prototype.addSlide = function () {
+    HomeComponent.prototype.addSlide = function () {
         var i = this.slides.length;
         this.slides.push({
             image: this.imgUrl[i],
@@ -38,19 +38,19 @@ var CarouselComponent = (function () {
                 'Năng động, sôi nổi'][this.slides.length % 4]
         });
     };
-    CarouselComponent.prototype.gotoBook = function () {
+    HomeComponent.prototype.gotoBook = function () {
         var link = ['books'];
         this.router.navigate(link);
     };
-    CarouselComponent = __decorate([
+    HomeComponent = __decorate([
         core_1.Component({
             selector: 'css-carousel',
-            templateUrl: './app/components/carousel/carousel.component.html',
-            styleUrls: ['./app/components/carousel/carousel.component.css']
+            templateUrl: './app/components/home/home.component.html',
+            styleUrls: ['./app/components/home/home.component.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router])
-    ], CarouselComponent);
-    return CarouselComponent;
+    ], HomeComponent);
+    return HomeComponent;
 }());
-exports.CarouselComponent = CarouselComponent;
-//# sourceMappingURL=carousel.component.js.map
+exports.HomeComponent = HomeComponent;
+//# sourceMappingURL=home.component.js.map

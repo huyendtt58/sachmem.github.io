@@ -4,10 +4,10 @@ import { CarouselModule} from 'ng2-bootstrap/components/carousel';
 
 @Component({
   selector: 'css-carousel',
-  templateUrl: './app/components/carousel/carousel.component.html',
-  styleUrls: ['./app/components/carousel/carousel.component.css']
+  templateUrl: './app/components/home/home.component.html',
+  styleUrls: ['./app/components/home/home.component.css']
 })
-export class CarouselComponent {
+export class HomeComponent {
   titlePage: string = "Sách mềm - Phần mềm hỗ trợ sách giáo khoa";
 	myInterval: number = 2000;
 	index: number = 0;

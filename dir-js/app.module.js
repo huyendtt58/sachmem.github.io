@@ -17,9 +17,11 @@ var app_routing_module_1 = require('./app-routing.module');
 var app_component_1 = require('./app.component');
 var book_component_1 = require('./components/book/book.component');
 var book_detail_component_1 = require('./components/book/book-detail.component');
-var carousel_component_1 = require('./components/carousel/carousel.component');
+var home_component_1 = require('./components/home/home.component');
 var choose_component_1 = require('./components/tests/chooseAnswer/choose.component');
 var test_component_1 = require('./components/tests/test.component');
+var write_component_1 = require('./components/tests/writing/write.component');
+var rac_component_1 = require('./components/tests/completeSentence/rac.component');
 var book_service_1 = require('./components/book/book.service');
 var book_detail_service_1 = require('./components/book/book-detail.service');
 var AppModule = (function () {
@@ -38,9 +40,11 @@ var AppModule = (function () {
                 app_component_1.AppComponent,
                 book_component_1.BookComponent,
                 book_detail_component_1.BookDetailComponent,
-                carousel_component_1.CarouselComponent,
+                home_component_1.HomeComponent,
                 choose_component_1.ChooseComponent,
-                test_component_1.TestComponent
+                test_component_1.TestComponent,
+                write_component_1.WriteComponent,
+                rac_component_1.RacComponent
             ],
             providers: [
                 book_service_1.BookService,
